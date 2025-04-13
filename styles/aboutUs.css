@@ -1,0 +1,301 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: lightgray;
+    font-family: "Instrument Sans", sans-serif;
+}
+main{
+    width: 1440px;
+    margin: auto;
+}
+/*HEADER*/
+header{
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    margin: auto;
+    background-color: white;
+    height: 95px;
+    border-bottom: 2px solid rgba(203, 203, 203, 1)
+}
+
+.headerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.headerLogo{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.92px;
+}
+
+.headerContainer nav{
+    display: flex;
+    gap: 15px;
+}
+
+.headerContainer nav div a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+/*MAIN*/
+
+.mainContainer{
+    width: 100%;
+    background-color: white;
+    min-height: calc(100vh - 95px);
+    padding-bottom: 20px;
+}
+
+.main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainTitle{
+    font-size: 44px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+.mainDescription{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #333333;
+}
+
+.headerMenu {
+    display: none;
+}
+.mobileNav{
+    background-color: white;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:  100vw;
+    height: 100vh;
+}
+
+.mobileNav nav{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.mobileNav nav div a{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.mobileNav{
+    display: none;
+}
+
+@media screen and (max-width: 1439px) and (min-width: 1191px) {
+    main, header, footer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1190px) and (min-width: 1071px) {
+    main, header, footer {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1070px) and (min-width: 800px) {
+    main, header, footer {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 801px) and (min-width: 501px) {
+    main, header, footer {
+        width: 100%;
+    }
+
+    /*HEADER*/
+    header{
+        height: 65px;
+    }
+
+
+    .mainContainer{
+        width: 100%;
+        background-color: white;
+        min-height: calc(100vh - 65px);
+        padding-bottom: 20px;
+    }
+
+    .headerContainer .navD{
+        display: none;
+    }
+
+    .headerMenu{
+        display: block;
+    }
+
+    .main{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainTitle{
+        font-size: 35px;
+        font-weight: 500;
+        letter-spacing: 0.01em;
+        margin-bottom: 30px;
+        margin-top: 60px;
+    }
+
+    .mainDescription{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 44px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        color: #333333;
+    }
+}
+
+@media screen and (max-width: 500px) and (min-width: 401px) {
+    main, header, footer {
+        width: 100%;
+    }
+
+    /*HEADER*/
+    header{
+        height: 65px;
+    }
+
+    .mainContainer{
+        width: 100%;
+        background-color: white;
+        min-height: calc(100vh - 65px);
+        padding-bottom: 20px;
+    }
+    .headerContainer .navD{
+        display: none;
+    }
+
+    .headerMenu{
+        display: block;
+    }
+
+    .headerLogo {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+
+    .main{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainTitle{
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 0.01em;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+
+    .mainDescription{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        color: #333333;
+    }
+}
+
+@media screen and (max-width: 400px) and (min-width: 0px) {
+    main, header, footer {
+        width: 100%;
+    }
+
+    /*HEADER*/
+    header{
+        height: 65px;
+    }
+
+    .mainContainer{
+        width: 100%;
+        background-color: white;
+        min-height: calc(100vh - 65px);
+        padding-bottom: 20px;
+    }
+    .headerContainer .navD{
+        display: none;
+    }
+
+    .headerMenu{
+        display: block;
+    }
+
+    .headerMenu {
+        display: block;
+    }
+
+    .headerLogo {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+
+    .main{
+        width: 90%;
+        margin-left: 25px;
+        margin-right: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainTitle{
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 0.01em;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+
+    .mainDescription{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        color: #333333;
+    }
+}

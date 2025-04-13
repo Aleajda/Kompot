@@ -1,0 +1,1848 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: lightgray;
+    font-family: "Instrument Sans", sans-serif;
+}
+main{
+    width: 1440px;
+    margin: auto;
+}
+/*HEADER*/
+header{
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    margin: auto;
+    background-color: white;
+    height: 95px;
+    border-bottom: 2px solid rgba(203, 203, 203, 1)
+}
+
+.headerMenu{
+    display: none;
+}
+
+.headerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.headerLogo{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.92px;
+}
+
+.headerContainer nav{
+    display: flex;
+    gap: 15px;
+}
+
+.headerContainer nav div a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+/*AboutUs*/
+
+.aboutUsContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 25px;
+    height: 730px;
+    background-color: white;
+}
+
+.aboutUs{
+    background-color: white;
+    margin-top: 70px;
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+/*LEFT*/
+.aboutUsLeft{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+
+.aboutUsLeftTitle{
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 53.68px;
+    letter-spacing: 0.01em;
+    margin-bottom: 40px;
+}
+
+.aboutUsLeftDescription{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #333333;
+}
+
+.aboutUsLeftBtn{
+    color: white;
+    background-color: #333333;
+    height: 65px;
+    width: 225px;
+    font-size: 23px;
+    font-weight: 500;
+    background-color: rgba(22, 163, 74, 1);
+    border: none;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+/*RIGHT*/
+.aboutUsRight{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    padding-left: 25px;
+}
+
+
+/*SERVICES*/
+
+.servicesContainer{
+    width: 100%;
+    padding: 0 35px;
+    height: 950px;
+    background-color: rgba(243, 244, 246, 1);
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicesCards{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.servicesCardTitle{
+    margin-top: 28px;
+    margin-bottom: 25px;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 31.72px;
+}
+
+.servicesCardDescription{
+    color:rgba(51, 51, 51, 1);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.servicesTitle{
+    margin-top: 78px;
+    font-size: 44px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 34px;
+}
+
+/*success*/
+
+.success{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(6, 78, 59, 1);
+    color: white;
+    width: 100%;
+    height: 250px;
+}
+
+.successTitle{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    width: 1025px;
+    font-size: 37px;
+    font-weight: 500;
+    line-height: 45.14px;
+    text-align: center;
+}
+
+.successDescription{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.96px;
+    text-align: center;
+}
+
+/*КОНТАКТ*/
+
+.contactContainer{
+    background-color: white;
+    border-bottom: 2px solid rgba(203, 203, 203, 1);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    width: 550px;
+}
+
+.contactTitle{
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 53.68px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.contact textarea{
+    border: 2px solid rgba(203, 203, 203, 1);
+    background: rgba(233, 236, 239, 1);
+    width: 550px;
+    height: 110px;
+    resize: none;
+    margin-bottom: 30px;
+}
+
+.contact input{
+    margin-bottom: 30px;
+    border: 2px solid rgba(203, 203, 203, 1);
+    background: rgba(233, 236, 239, 1);
+    width: 550px;
+    height: 60px;
+}
+
+.contact button{
+    color: white;
+    background-color: #333333;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgba(22, 163, 74, 1);
+    border: none;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: white;
+    width: 1440px;
+    height: 258px;
+    margin: auto;
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navAndIcons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navAndIcons nav{
+    padding-top: 5px;
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: center;
+}
+
+
+.navAndIcons nav div a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.icons{
+    display: flex;
+    gap: 28px;
+}
+
+.footerLogo{
+    margin-bottom: 47px;
+    margin-top: 27px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39.01px;
+}
+
+.copyright{
+
+}
+
+.mobileNav{
+    background-color: white;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:  100vw;
+    height: 100vh;
+}
+
+.mobileNav nav{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.mobileNav nav div a{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.mobileNav{
+    display: none;
+}
+
+
+@media screen and (max-width: 1439px) and (min-width: 1191px){
+    main, header, footer{
+        width: 100%;
+    }
+    /*AboutUs*/
+
+    .aboutUsContainer{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 30px 25px;
+        height: auto;
+        background-color: white;
+    }
+
+    .aboutUs{
+        background-color: white;
+        margin-top: 0;
+        height: auto;
+        width: 100%;
+        display: flex;
+    }
+    /*LEFT*/
+
+    .aboutUsLeftTitle{
+        font-size: 38px;
+        font-weight: 500;
+        line-height: 45px;
+        letter-spacing: 0.01em;
+        margin-bottom: 15px;
+    }
+
+    .aboutUsLeftDescription{
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 35px;
+
+        letter-spacing: 0.01em;
+        text-align: left;
+        color: #333333;
+        margin-bottom: 70px;
+    }
+
+    .aboutUsLeftBtn{
+        color: white;
+        background-color: #333333;
+        height: 65px;
+        width: 200px;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: rgba(22, 163, 74, 1);
+        border: none;
+        position: absolute;
+        bottom: 0;
+    }
+
+
+
+    /*RIGHT*/
+
+    .aboutUsRight img{
+        width: 100%;
+    }
+
+
+    /*SERVICES*/
+
+    .servicesContainer{
+        height: auto;
+        width: 100%;
+        padding: 0 25px;
+        background-color: rgba(243, 244, 246, 1);
+    }
+
+    .services{
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .servicesCards{
+        display: flex;
+        gap: 3%;
+        justify-content: space-between;
+    }
+
+    .servicesCard, .servicesCard2{
+        width: 30%;
+    }
+
+    .servicesCard img, .servicesCard2 img{
+        width: 100%;
+    }
+
+
+    .servicesCardTitle{
+        margin-top: 28px;
+        margin-bottom: 25px;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 31.72px;
+    }
+
+    .servicesCardDescription{
+        color:rgba(51, 51, 51, 1);
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 36px;
+        text-align: left;
+        letter-spacing: 1px;
+    }
+
+    .servicesTitle{
+        margin-top: 40px;
+        font-size: 44px;
+        font-weight: 500;
+        text-align: left;
+        margin-bottom: 34px;
+    }
+
+    /*success*/
+
+    .success{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(6, 78, 59, 1);
+        color: white;
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .successTitle{
+        margin-top: 50px;
+        margin-bottom: 40px;
+        width: 80%;
+        font-size: 37px;
+        font-weight: 500;
+        line-height: 45.14px;
+        text-align: center;
+    }
+
+    .successDescription{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.96px;
+        text-align: center;
+    }
+
+    /*FOOTER*/
+
+    footer{
+        background-color: white;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding-top: 40px;
+        padding-left: 25px;
+        padding-bottom: 40px;
+        padding-right: 25px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1190px) and (min-width: 1071px){
+    main, header, footer{
+        width: 100%;
+    }
+    /*AboutUs*/
+
+    .aboutUsContainer{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 30px 25px;
+        height: auto;
+        background-color: white;
+    }
+
+    .aboutUs{
+        background-color: white;
+        margin-top: 0;
+        height: auto;
+        width: 100%;
+        display: flex;
+    }
+    /*LEFT*/
+    .aboutUsLeft{
+        position: relative;
+        width: 50%;
+        height: 100%;
+        background-color: white;
+    }
+
+    .aboutUsLeftTitle{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 40px;
+        letter-spacing: 0.01em;
+        margin-bottom: 20px;
+    }
+
+    .aboutUsLeftDescription{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+
+        letter-spacing: 0.01em;
+        text-align: left;
+        color: #333333;
+        margin-bottom: 70px;
+    }
+
+    .aboutUsLeftBtn{
+        color: white;
+        background-color: #333333;
+        height: 50px;
+        width: 150px;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: rgba(22, 163, 74, 1);
+        border: none;
+        position: absolute;
+        bottom: 0;
+    }
+
+
+
+    /*RIGHT*/
+    .aboutUsRight{
+        width: 50%;
+        height: 100%;
+        background-color: white;
+        padding-left: 25px;
+    }
+
+    .aboutUsRight img{
+        width: 100%;
+    }
+
+    /*SERVICES*/
+
+    .servicesContainer{
+        width: 100%;
+        height: auto;
+        padding: 0 25px;
+        background-color: rgba(243, 244, 246, 1);
+    }
+
+    .services{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .servicesCards{
+        display: flex;
+        gap: 3%;
+        justify-content: space-between;
+    }
+
+    .servicesCard, .servicesCard2{
+        width: 30%;
+    }
+
+    .servicesCard img, .servicesCard2 img{
+        width: 100%;
+    }
+
+
+    .servicesCardTitle{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+
+    .servicesCardDescription{
+        color:rgba(51, 51, 51, 1);
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: left;
+        letter-spacing: 1px;
+    }
+
+    .servicesTitle{
+        margin-top: 40px;
+        font-size: 44px;
+        font-weight: 500;
+        text-align: left;
+        margin-bottom: 34px;
+    }
+
+    /*success*/
+
+    .success{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(6, 78, 59, 1);
+        color: white;
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .successTitle{
+        margin-top: 50px;
+        margin-bottom: 40px;
+        width: 80%;
+        font-size: 37px;
+        font-weight: 500;
+        line-height: 45.14px;
+        text-align: center;
+    }
+
+    .successDescription{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.96px;
+        text-align: center;
+    }
+
+    /*FOOTER*/
+
+    footer{
+        background-color: white;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding-top: 40px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 40px;
+    }
+
+}
+
+
+@media screen and (max-width: 1070px) and (min-width: 800px){
+    main, header, footer{
+        width: 100%;
+    }
+    /*AboutUs*/
+
+    .aboutUsContainer{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 30px 25px;
+        height: auto;
+        background-color: white;
+    }
+
+    .aboutUs{
+        background-color: white;
+        margin-top: 0;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*LEFT*/
+    .aboutUsLeft{
+        position: relative;
+        width: 100%;
+
+        height: auto;
+        background-color: white;
+    }
+
+    .aboutUsLeftTitle{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 40px;
+        letter-spacing: 0.01em;
+        margin-bottom: 20px;
+    }
+
+    .aboutUsLeftDescription{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+
+        letter-spacing: 0.01em;
+        text-align: left;
+        color: #333333;
+        margin-bottom: 70px;
+    }
+
+    .aboutUsLeftBtn{
+        color: white;
+        background-color: #333333;
+        height: 50px;
+        width: 150px;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: rgba(22, 163, 74, 1);
+        border: none;
+        position: absolute;
+        bottom: 0;
+    }
+
+
+
+    /*RIGHT*/
+    .aboutUsRight{
+        display: none;
+    }
+
+    /*RIGHT*/
+    .aboutUsRight{
+        width: 50%;
+        height: 100%;
+        background-color: white;
+        padding-left: 25px;
+    }
+
+    .aboutUsRight img{
+        width: 100%;
+    }
+
+    /*SERVICES*/
+
+    .servicesContainer{
+        width: 100%;
+        height: auto;
+        padding: 0 25px;
+        background-color: rgba(243, 244, 246, 1);
+    }
+
+    .services{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .servicesCards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3%;
+        justify-content: space-between;
+
+    }
+
+    .servicesCard{
+        width: 47%;
+    }
+
+    .servicesCard img{
+        width: 100%;
+    }
+
+    .servicesCard2 img{
+        width: 100%;
+
+    }
+
+
+    .servicesCard2{
+        width: 100%;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+
+    .servicesCardTitle{
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .servicesCardDescription{
+        color:rgba(51, 51, 51, 1);
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 36px;
+        text-align: left;
+        letter-spacing: 1px;
+    }
+
+    .servicesTitle{
+        margin-top: 40px;
+        font-size: 44px;
+        font-weight: 500;
+        text-align: left;
+        margin-bottom: 34px;
+    }
+
+    /*success*/
+
+    .success{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(6, 78, 59, 1);
+        color: white;
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .successTitle{
+        margin-top: 50px;
+        margin-bottom: 40px;
+        width: 90%;
+        font-size: 37px;
+        font-weight: 500;
+        line-height: 45.14px;
+        text-align: center;
+    }
+
+    .successDescription{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.96px;
+        text-align: center;
+    }
+
+    /*FOOTER*/
+
+    footer{
+        background-color: white;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding-top: 40px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 40px;
+    }
+
+}
+
+@media screen and (max-width: 801px) and (min-width: 501px){
+    main, header, footer{
+        width: 100%;
+    }
+    /*AboutUs*/
+
+    .aboutUsContainer{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 30px 25px;
+        height: auto;
+        background-color: white;
+    }
+
+    .aboutUs{
+        background-color: white;
+        margin-top: 0;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*LEFT*/
+    .aboutUsLeft{
+        position: relative;
+        width: 100%;
+
+        height: auto;
+        background-color: white;
+    }
+
+    .aboutUsLeftTitle{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0.01em;
+        margin-bottom: 20px;
+    }
+
+    .aboutUsLeftDescription{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 22px;
+
+        letter-spacing: 0.01em;
+        text-align: left;
+        color: #333333;
+        margin-bottom: 70px;
+    }
+
+    .aboutUsLeftBtn{
+        color: white;
+        background-color: #333333;
+        height: 50px;
+        width: 150px;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: rgba(22, 163, 74, 1);
+        border: none;
+        position: absolute;
+        bottom: 0;
+    }
+
+
+
+    /*RIGHT*/
+    .aboutUsRight{
+        display: none;
+    }
+
+
+    /*HEADER*/
+    header{
+        height: 65px;
+    }
+    .headerContainer .navD{
+        display: none;
+    }
+
+    .headerMenu{
+        display: block;
+    }
+
+
+    /*SERVICES*/
+
+    .servicesContainer{
+        width: 100%;
+        height: auto;
+        padding: 0 25px;
+        background-color: rgba(243, 244, 246, 1);
+    }
+
+    .services{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .servicesCards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3%;
+        justify-content: space-between;
+
+    }
+
+    .servicesCard{
+        width: 47%;
+    }
+
+    .servicesCard img{
+        width: 100%;
+    }
+
+    .servicesCard2 img{
+        width: 100%;
+
+    }
+
+
+    .servicesCard2{
+        width: 100%;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+
+    .servicesCardTitle{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+
+    .servicesCardDescription{
+        color:rgba(51, 51, 51, 1);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        letter-spacing: 1px;
+    }
+
+    .servicesTitle{
+        margin-top: 40px;
+        font-size: 44px;
+        font-weight: 500;
+        text-align: left;
+        margin-bottom: 34px;
+    }
+
+
+    /*success*/
+
+    .success{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(6, 78, 59, 1);
+        color: white;
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .successTitle{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 100%;
+        padding: 0 25px;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .successDescription{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.96px;
+        text-align: center;
+    }
+
+
+    /*КОНТАКТ*/
+
+    .contactContainer{
+        background-color: white;
+        border-bottom: 2px solid rgba(203, 203, 203, 1);
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact{
+        padding: 40px 0;
+        padding-bottom: 90px;
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .contactTitle{
+        font-size: 44px;
+        font-weight: 500;
+        line-height: 53.68px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .contact textarea{
+        border: 2px solid rgba(203, 203, 203, 1);
+        background: rgba(233, 236, 239, 1);
+        width: 90%;
+        height: 110px;
+        resize: none;
+        margin-bottom: 30px;
+    }
+
+    .contact input{
+        margin-bottom: 30px;
+        border: 2px solid rgba(203, 203, 203, 1);
+        background: rgba(233, 236, 239, 1);
+        width: 90%;
+        height: 60px;
+    }
+
+    .contact button{
+        position: absolute;
+        bottom: 40px;
+        left: 5%;
+        color: white;
+        background-color: #333333;
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+        font-weight: 500;
+        background-color: rgba(22, 163, 74, 1);
+        border: none;
+    }
+
+    /*FOOTER*/
+
+    footer{
+        background-color: white;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding-top: 40px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 30px;
+    }
+
+    .navAndIcons{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .navAndIcons nav{
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19.5px;
+        text-align: start;
+    }
+
+
+    .navAndIcons nav div a{
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .icons{
+        display: flex;
+        gap: 28px;
+    }
+
+    .icons img{
+        width: 30px;
+    }
+
+    .footerLogo{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 39.01px;
+    }
+
+    .logoAndCopy{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .copyright{
+        padding-top: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) and (min-width: 401px){
+    main, header, footer{
+        width: 100%;
+    }
+    /*AboutUs*/
+
+    .aboutUsContainer{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 15px 25px;
+        height: auto;
+        background-color: white;
+    }
+
+    .aboutUs{
+        background-color: white;
+        margin-top: 0;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*LEFT*/
+    .aboutUsLeft{
+        position: relative;
+        width: 100%;
+
+        height: auto;
+        background-color: white;
+    }
+
+    .aboutUsLeftTitle{
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 35px;
+        letter-spacing: 0.01em;
+        margin-bottom: 10px;
+    }
+
+    .aboutUsLeftDescription{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+
+        letter-spacing: 0.01em;
+        text-align: left;
+        color: #333333;
+        margin-bottom: 70px;
+    }
+
+    .aboutUsLeftBtn{
+        color: white;
+        background-color: #333333;
+        height: 50px;
+        width: 150px;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: rgba(22, 163, 74, 1);
+        border: none;
+        position: absolute;
+        bottom: 0;
+    }
+
+
+
+    /*RIGHT*/
+    .aboutUsRight{
+        display: none;
+    }
+
+    /*HEADER*/
+    header{
+        height: 65px;
+    }
+    .headerContainer .navD{
+        display: none;
+    }
+
+    .headerMenu{
+        display: block;
+    }
+
+    .headerLogo{
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+
+
+    /*SERVICES*/
+
+    .servicesContainer{
+        width: 100%;
+        height: auto;
+        padding: 0 25px;
+        background-color: rgba(243, 244, 246, 1);
+    }
+
+    .services{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .servicesCards{
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .servicesCard{
+        width: 100%;
+    }
+
+    .servicesCard img{
+        width: 100%;
+    }
+
+    .servicesCard2 img{
+        width: 100%;
+
+    }
+
+
+    .servicesCard2{
+        width: 100%;
+        margin: auto;
+    }
+
+
+    .servicesCardTitle{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+
+    .servicesCardDescription{
+        color:rgba(51, 51, 51, 1);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        letter-spacing: 1px;
+    }
+
+    .servicesTitle{
+        margin-top: 30px;
+        font-size: 40px;
+        font-weight: 500;
+        text-align: left;
+        margin-bottom: 25px;
+    }
+
+    /*success*/
+
+    .success{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(6, 78, 59, 1);
+        color: white;
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .successTitle{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 100%;
+        padding: 0 25px;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .successDescription{
+        font-size: 15px;
+        font-weight: 500;
+        padding: 0 25px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+
+
+    /*КОНТАКТ*/
+
+    .contactContainer{
+        background-color: white;
+        border-bottom: 2px solid rgba(203, 203, 203, 1);
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact{
+        padding: 30px 0;
+        padding-bottom: 80px;
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .contactTitle{
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 50px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .contact textarea{
+        border: 2px solid rgba(203, 203, 203, 1);
+        background: rgba(233, 236, 239, 1);
+        width: 90%;
+        height: 110px;
+        resize: none;
+        margin-bottom: 30px;
+    }
+
+    .contact input{
+        margin-bottom: 30px;
+        border: 2px solid rgba(203, 203, 203, 1);
+        background: rgba(233, 236, 239, 1);
+        width: 90%;
+        height: 60px;
+    }
+
+    .contact button{
+        position: absolute;
+        bottom: 30px;
+        left: 5%;
+        color: white;
+        background-color: #333333;
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+        font-weight: 500;
+        background-color: rgba(22, 163, 74, 1);
+        border: none;
+    }
+
+    /*FOOTER*/
+
+    footer{
+        background-color: white;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding-top: 40px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 30px;
+    }
+
+    .navAndIcons{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .navAndIcons nav{
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19.5px;
+        text-align: start;
+    }
+
+
+    .navAndIcons nav div a{
+        color: black;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .icons{
+        display: flex;
+        gap: 20px;
+    }
+
+    .icons img{
+        width: 25px;
+    }
+
+    .footerLogo{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 39.01px;
+    }
+
+    .logoAndCopy{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .copyright{
+        padding-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 400px) and (min-width: 0px){
+    main, header, footer{
+        width: 100%;
+    }
+    /*AboutUs*/
+
+    .aboutUsContainer{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 10px 25px;
+        height: auto;
+        background-color: white;
+    }
+
+    .aboutUs{
+        background-color: white;
+        margin-top: 0;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*LEFT*/
+    .aboutUsLeft{
+        position: relative;
+        width: 100%;
+
+        height: auto;
+        background-color: white;
+    }
+
+    .aboutUsLeftTitle{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0.01em;
+        margin-bottom: 10px;
+    }
+
+    .aboutUsLeftDescription{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+
+        letter-spacing: 0.01em;
+        text-align: left;
+        color: #333333;
+        margin-bottom: 50px;
+    }
+
+    .aboutUsLeftBtn{
+        color: white;
+        background-color: #333333;
+        height: 30px;
+        width: 100px;
+        font-size: 10px;
+        font-weight: 500;
+        background-color: rgba(22, 163, 74, 1);
+        border: none;
+        position: absolute;
+        bottom: 0;
+    }
+
+
+
+    /*RIGHT*/
+    .aboutUsRight{
+        display: none;
+    }
+
+    /*HEADER*/
+    header{
+        height: 65px;
+    }
+    .headerContainer .navD{
+        display: none;
+    }
+
+    .headerMenu{
+        display: block;
+    }
+
+    .headerLogo{
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+
+    /*SERVICES*/
+
+    .servicesContainer{
+        width: 100%;
+        height: auto;
+        padding: 0 25px;
+        background-color: rgba(243, 244, 246, 1);
+    }
+
+    .services{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .servicesCards{
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .servicesCard{
+        width: 100%;
+    }
+
+    .servicesCard img{
+        width: 100%;
+    }
+
+    .servicesCard2 img{
+        width: 100%;
+
+    }
+
+
+    .servicesCard2{
+        width: 100%;
+        margin: auto;
+    }
+
+
+    .servicesCardTitle{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+
+    .servicesCardDescription{
+        color:rgba(51, 51, 51, 1);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: left;
+        letter-spacing: 1px;
+    }
+
+    .servicesTitle{
+        margin-top: 30px;
+        font-size: 40px;
+        font-weight: 500;
+        text-align: left;
+        margin-bottom: 25px;
+    }
+
+    /*success*/
+
+    .success{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(6, 78, 59, 1);
+        color: white;
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .successTitle{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        width: 100%;
+        padding: 0 25px;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .successDescription{
+        font-size: 15px;
+        font-weight: 500;
+        padding: 0 25px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    /*КОНТАКТ*/
+
+    .contactContainer{
+        background-color: white;
+        border-bottom: 2px solid rgba(203, 203, 203, 1);
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact{
+        padding: 30px 0;
+        padding-bottom: 70px;
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .contactTitle{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 50px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .contact textarea{
+        border: 2px solid rgba(203, 203, 203, 1);
+        background: rgba(233, 236, 239, 1);
+        width: 90%;
+        height: 110px;
+        resize: none;
+        margin-bottom: 20px;
+    }
+
+    .contact input{
+        margin-bottom: 20px;
+        border: 2px solid rgba(203, 203, 203, 1);
+        background: rgba(233, 236, 239, 1);
+        width: 90%;
+        height: 60px;
+    }
+
+    .contact button{
+        position: absolute;
+        bottom: 30px;
+        left: 5%;
+        color: white;
+        background-color: #333333;
+        height: 40px;
+        width: 160px;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: rgba(22, 163, 74, 1);
+        border: none;
+    }
+
+
+    /*FOOTER*/
+
+    footer{
+        background-color: white;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding-top: 40px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 30px;
+    }
+
+    .navAndIcons{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .navAndIcons nav{
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19.5px;
+        text-align: start;
+    }
+
+
+    .navAndIcons nav div a{
+        color: black;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .icons{
+        display: flex;
+        gap: 10px;
+    }
+
+    .icons img{
+        width: 25px;
+    }
+
+    .footerLogo{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 39.01px;
+    }
+
+    .logoAndCopy{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .copyright{
+        padding-top: 10px;
+    }
+
+}
